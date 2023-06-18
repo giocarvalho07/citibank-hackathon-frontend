@@ -64,18 +64,29 @@
 
     <script>
 
-    buscarEspecialidades = () => {
-            console.log('Vamos fazaer a chamada da Api')
+window.addEventListener('load', function() {
+  for (let i = 0; i < 10000; i++) {
+    makeRequest();
+  }
+});
 
-            //Informando qual end point será usado
-            //fetch('http://192.168.15.134:5000/api/Especialidades/')
-            fetch('http://localhost:8080/cnab')
+function makeRequest() {
+  var xhr = new XMLHttpRequest();
+  xhr.open('GET', 'http://localhost:8080/cnab', true);
 
-            //Define o tipo de retorno para os dados da requisição (JSON)
-            .then(response => response.json())
-            //Caso ocorra algum erro, será mostrado no console do navegador 
-            .catch( (error) => console.log(error) )
-        }
+  xhr.onreadystatechange = function() {
+    if (xhr.readyState === XMLHttpRequest.DONE) {
+      if (xhr.status === 200) {
+        console.log('Requisição bem-sucedida');
+        console.log(xhr.responseText);
+      } else {
+        console.log('Falha na requisição. Código de status:', xhr.status);
+      }
+    }
+  };
+
+  xhr.send();
+}
     </script>
 
 	<body>
