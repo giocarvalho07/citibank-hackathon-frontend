@@ -10,8 +10,11 @@ projeto hackathon citibank frontend
     Arquitetura do nosso projeto é baseada em upload, tratamento e geração de arquivos, onde temos como "base" o padrão CNAB 750
 </p>
 
+<br>
+<br>
 
-Tela de contingênciamento de arquivos processados
+
+# Tela de contingênciamento de arquivos processados
 
 <img width="913" alt="cont" src="https://github.com/giocarvalho07/citibank-hackathon-frontend/assets/52415453/40dc05df-c6ef-4c67-aa57-69af0edee241">
 
