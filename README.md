@@ -50,7 +50,7 @@ Badge | URL
 <br>
 
 <p>
-    Mapeando a necessidade de upload para reprocessamento de arquivos com falha
+    Prototipando o requisito da necessidade de upload para reprocessamento de arquivos com falha
 </p>
 
 <br>
