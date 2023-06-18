@@ -1,0 +1,143 @@
+<!doctype html>
+<html lang="en">
+  <head>
+  	<title>Table 09</title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+	<link href='https://fonts.googleapis.com/css?family=Roboto:400,100,300,700' rel='stylesheet' type='text/css'>
+
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+	
+	<link rel="stylesheet" href="css/style.css">
+
+	</head>
+
+    <script>
+
+    buscarEspecialidades = () => {
+            console.log('Vamos fazaer a chamada da Api')
+
+            //Informando qual end point será usado
+            //fetch('http://192.168.15.134:5000/api/Especialidades/')
+            fetch('http://localhost:8080/cnab')
+
+            //Define o tipo de retorno para os dados da requisição (JSON)
+            .then(response => response.json())
+            //Caso ocorra algum erro, será mostrado no console do navegador 
+            .catch( (error) => console.log(error) )
+        }
+
+
+
+    </script>
+
+	<body>
+	<section class="ftco-section">
+		<div class="container">
+			<div class="row justify-content-center">
+				<div class="col-md-6 text-center mb-5">
+					<h2 class="heading-section">Table #09</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<div class="table-wrap">
+						<table class="table table-striped">
+						  <thead>
+						    <tr>
+						      <th>TipoOperacaoRemessa</th>
+						      <th>CodigoServico</th>
+						      <th>Bancos</th>
+						      <th>DataGeracao</th>
+						      <th>ValorTotal</th>
+						      <th>Status</th>
+						    </tr>
+						  </thead>
+						  <tbody>
+						    <tr>
+						      <th scope="row"> 001 </th>
+						      <td> 02 </td>
+						      <td> Caixa </td>
+						      <td> 09/05/2023 </td>
+						      <td> $895 </td>
+						      <td><a href="#" class="btn btn-success">Processado </a></td>
+						    </tr>
+
+						    <tr>
+						      <th scope="row"> 002 </th>
+						      <td> 02 </td>
+						      <td> BB </td>
+						      <td> 09/05/2023 </td>
+						      <td>$895</td>
+						      <td><a href="#" class="btn btn-warning"> Processando </a></td>
+						    </tr>
+
+						    <tr>
+						      <th scope="row">003</th>
+						      <td> 02 </td>
+						      <td>Santander</td>
+						      <td>09/05/2023</td>
+						      <td>$1200</td>
+						      <td><a  href="/reprocessar.html" class="btn btn-danger">Reprocessar </a></td>
+						    </tr>
+
+						    <tr>
+						      <th scope="row">004</th>
+						      <td> 03 </td>
+						      <td> Itau </td>
+						      <td>02/09/2023</td>
+						      <td>$759</td>
+						      <td><a href="#" class="btn btn-success">Processado</a></td>
+						    </tr>
+
+						     <tr>
+						      <th scope="row">005</th>
+						      <td> 03 </td>
+						      <td> Bradesco </td>
+						      <td> 02/09/2023 </td>
+						      <td>$1875</td>
+						      <td><a href="#" class="btn btn-success"> Processado </a></td>
+						    </tr>
+
+						     <tr>
+						      <th scope="row">006 </th>
+						      <td> 02 </td>
+						      <td> BB </td>
+						      <td>09/05/2023</td>
+						      <td>$300</td>
+						      <td><a href="#" class="btn btn-success"> Processado </a></td>
+
+						       <tr>
+						      <th scope="row"> 007 </th>
+						      <td> 02 </td>
+						      <td> BB </td>
+						      <td> 02/09/2023 </td>
+						      <td>$985</td>
+						      <td><a href="#" class="btn btn-success">Processado</a></td>
+						    </tr>
+
+						    <tr>
+						      <th scope="row"> 008 </th>
+						      <td> 03 </td>
+						      <td> BB </td>
+						      <td>02/09/2023</td>
+						      <td>$1200</td>
+						      <td><a href="#" class="btn btn-success">Processado </a></td>
+						    </tr>
+						  </tbody>
+						</table>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<script src="js/jquery.min.js"></script>
+  <script src="js/popper.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+
+	</body>
+</html>
+
