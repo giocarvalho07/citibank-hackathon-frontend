@@ -48,10 +48,12 @@ Badge | URL
 <img width="761" alt="rep" src="https://github.com/giocarvalho07/citibank-hackathon-frontend/assets/52415453/4743edb3-c3cd-4d91-aa7d-d9c55cce4052">
 
 <br>
+<br>
+<br>
 
-<p>
+<h3>
     Prototipando o requisito da necessidade de upload para reprocessamento de arquivos com falha
-</p>
+</h3>
 
 <br>
 
