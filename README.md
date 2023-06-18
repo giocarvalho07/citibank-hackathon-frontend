@@ -15,21 +15,6 @@ projeto hackathon citibank frontend
 <br>
 <br>
 
-
-# Tela de contingênciamento de arquivos processados
-
-<img width="913" alt="cont" src="https://github.com/giocarvalho07/citibank-hackathon-frontend/assets/52415453/40dc05df-c6ef-4c67-aa57-69af0edee241">
-
-<br>
-<br>
-
-<p>
-    Arquitetura do nosso projeto é baseada em upload, tratamento e geração de arquivos, onde temos como "base" o padrão CNAB 750
-</p>
-
-
-![](https://github.com/giocarvalho07/citibank-hackathon/issues/1)
-
 # Tecnologias utilizadas 
 
 ## Skills
@@ -44,6 +29,21 @@ Badge | URL
 <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" /> | `https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white`
 <img src="https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white" /> | `https://img.shields.io/badge/jQuery-0769AD?style=for-the-badge&logo=jquery&logoColor=white`
 <img src="https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white" /> | `https://img.shields.io/badge/Netlify-00C7B7?style=for-the-badge&logo=netlify&logoColor=white`
+
+<br>
+<br>
+
+# Tela de contingênciamento de arquivos processados
+
+<img width="913" alt="cont" src="https://github.com/giocarvalho07/citibank-hackathon-frontend/assets/52415453/40dc05df-c6ef-4c67-aa57-69af0edee241">
+
+<br>
+<br>
+
+
+![](https://github.com/giocarvalho07/citibank-hackathon/issues/1)
+
+
 
 
 # como instalar GoLang
