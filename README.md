@@ -59,8 +59,6 @@ Badge | URL
 
 # URL do projeto online
 
-```bash
-$ [go version](https://strong-otter-5e3656.netlify.app/reprocessar.html)
-```
+`https://strong-otter-5e3656.netlify.app/`
 
 
